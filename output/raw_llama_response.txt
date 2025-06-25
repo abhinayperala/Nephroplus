@@ -1,0 +1,263 @@
+
+
+--- LLaMA response for Header Info ---
+Here is the extracted information in a JSON object:
+
+```
+{
+    "hospital_info": {
+        "hospital_name": "G.K. HOSPITAL & CLINICAL LAB",
+        "address": "Opp. Hero Cycles & Oswal Woollen Mill No. 3, G .T. Road, LUDHIANA.",
+        "phone": "5015246",
+        "website": "",
+        "accreditation": [""],
+        "panel": [],
+        "certificate_number": "",
+        "accreditation_date": ""
+    },
+    "patient_info": {
+        "lab_id": "sample No - 09 Date",
+        "name": "",
+        "age": "",
+        "gender": "",
+        "client_code": ""
+    },
+    "doctor_info": {
+        "referred_by": "",
+        "consultant": "",
+        "pathologist": "",
+        "reporting_location": ""
+    },
+    "report_info": {
+        "report_type": "HAEMATOLOGY- REPORT",
+        "collection_date": "",
+        "collection_time": "",
+        "received_date": "",
+        "received_time": "",
+        "report_date": "",
+        "report_time": ""
+    }
+}
+```
+
+Note that some of the fields, such as `accreditation` and `client_code`, do not have any relevant information in the provided text.
+
+
+--- LLaMA response for Test Results ---
+Here is the extracted test results in JSON format:
+
+{"test_results": [
+  {
+    "test_name": "Blood Urea",
+    "result_value": "28 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "20-40mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Creatinine",
+    "result_value": "0.8 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.2-1.0ma/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Protien T",
+    "result_value": "7.2 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "6.0-8.0gm/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Albumin",
+    "result_value": "4.1 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "3.5-5.59m/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Globulin",
+    "result_value": "3.1 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "3.5-5.0gm/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Bilurubin(T)",
+    "result_value": "0.6 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.2-1.0mq/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Bilurubin(D)",
+    "result_value": "0.2 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.0-0.3mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "SGOT",
+    "result_value": "36U/L",
+    "unit": "U/L",
+    "reference_range": "05-35 U/L",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "SGPT",
+    "result_value": "20 U/L",
+    "unit": "U/L",
+    "reference_range": "05-35 U/L",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Alk phosphatase",
+    "result_value": "205 U/L",
+    "unit": "U/L",
+    "reference_range": "30-120 U/L",
+    "status": "",
+    "method": ""
+  }
+]}
+
+
+--- LLaMA response for Header Info ---
+Here is the extracted information in a JSON object:
+
+```
+{
+    "hospital_info": {
+        "hospital_name": "G.K. HOSPITAL & CLINICAL LAB",
+        "address": "Opp. Hero Cycles & Oswal Woollen Mill No. 3, G .T. Road, LUDHIANA.",
+        "phone": "5015246",
+        "website": null,
+        "accreditation": null,
+        "panel": [],
+        "certificate_number": null,
+        "accreditation_date": null
+    },
+    "patient_info": {
+        "lab_id": null,
+        "name": null,
+        "age": null,
+        "gender": null,
+        "client_code": null
+    },
+    "doctor_info": {
+        "referred_by": null,
+        "consultant": null,
+        "pathologist": null,
+        "reporting_location": null
+    },
+    "report_info": {
+        "report_type": "HAEMATOLOGY- REPORT",
+        "collection_date": null,
+        "collection_time": null,
+        "received_date": null,
+        "received_time": null,
+        "report_date": null,
+        "report_time": null,
+        "sample_type": null
+    }
+}
+```
+
+Let me know if you'd like me to clarify or modify anything!
+
+
+--- LLaMA response for Test Results ---
+Here are the test results extracted from the text in JSON format:
+
+{
+"test_results": [
+  {
+    "test_name": "Blood Urea",
+    "result_value": "28 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "20-40mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Creatinine",
+    "result_value": "0.8 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.2-1.0mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Protien T",
+    "result_value": "7.2 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "6.0-8.0gm/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Albumin",
+    "result_value": "4.1 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "3.5-5.59m/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Globulin",
+    "result_value": "3.1 gm/dl",
+    "unit": "gm/dl",
+    "reference_range": "3.5-5.0gm/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Bilurubin(T)",
+    "result_value": "0.6 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.2-1.0mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "S.Bilurubin(D)",
+    "result_value": "0.2 mg/dl",
+    "unit": "mg/dl",
+    "reference_range": "0.0-0.3mg/dl",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "SGOT",
+    "result_value": "36U/L",
+    "unit": "U/L",
+    "reference_range": "05-35 U/L",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "SGPT",
+    "result_value": "20 U/L",
+    "unit": "U/L",
+    "reference_range": "05-35 U/L",
+    "status": "",
+    "method": ""
+  },
+  {
+    "test_name": "Alk phosphatase",
+    "result_value": "205 U/L",
+    "unit": "U/L",
+    "reference_range": "30-120 U/L",
+    "status": "",
+    "method": ""
+  }
+]
+}
